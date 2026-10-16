@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./colorlayout.css">
+    <link rel="icon" href="./pngtree-green-leaf-sticker-in-cute-anime-style-vector-png-image_11089996.png">
+    <title>GreenLeaf-Bring Nature Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Condensed:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<style>
+
+
+    ul{
+        list-style-type: none;
+        padding: 15px;
+        background-color: #4bb85d;
+        margin-top: -8px;
+        width: 1400px;
+        margin-right: 100px;
+        cursor: pointer;
+        margin-left: -10px;
+        display: flex;
+        border-radius: 10px;
+        border: 1px solid black;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 15px;
+    }
+    ul li a{
+        display: block;
+        color: #eff3ef;
+        padding: 14px 16px;
+        border-radius: 5px;
+        overflow: hidden;
+        
+    }
+
+    li a{
+         text-decoration: none;
+
+    }
+    li  :hover {
+        background-color: #b9f0c1;
+        color: rgb(17, 17, 17);
+        border-radius: 5px;
+    }
+    .nohover{
+        pointer-events: none;
+    }
+    .loginpage{
+        float: right;
+    }
+    .loginlogo{
+        float: right;
+        margin-left: 900px;
+    }
+    ol{
+        list-style-type: none;
+        padding: 15px;
+        background-color: #4bb85d;
+        margin-top: 50px;
+        width: 1350px;
+        height: 180px;
+        margin-right: 100px;
+        cursor: pointer;
+        margin-left: -10px;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+    ol li a{
+        display: block;
+        color: #eff3ef;
+        padding: 14px 16px;
+        overflow: hidden;
+    }
+
+    li a{
+         text-decoration: none;
+
+    }
+    li  :hover {
+        background-color: #b9f0c1;
+        color: rgb(17, 17, 17);
+    }
+    /* .Money{
+        position: relative;
+    }
+    .snake{
+        display: none;
+        position: absolute;
+        background-color: antiquewhite;
+     
+    }
+    .Money:hover .snake{
+        display: block;
+    } */
+
+    .frontimage img{
+        float: right;
+        margin-left: 50px;
+        margin-top:-45px;
+        width: 1420px;
+        height: 400px;
+        border-radius: 10px;
+    }
+    .footerimg img{
+        position: relative;
+        float: left;
+        width: 400px;
+        height: 500px;
+        margin-top: 120px;
+        margin-left: 120px;
+    }
+    .mainhead{
+        position: absolute;
+        font-size: 35px;
+        font-family: Poppins;
+        margin-top: 170px;
+        color: #057005;
+        text-shadow: 2px 5px 10px rgba(113, 255, 100, 0.658);
+        margin-left: 740px;
+        
+    }
+    .footerstyle{
+        position: absolute;
+        width: 500px;
+        height: 320px;
+        margin-top: 250px;
+        margin-left: 620px;
+        text-align: center;
+        box-sizing: border-box;
+        font-family: Poppins;
+        font-size: 16px;
+        border: 1px outset rgba(0, 0, 0, 0.158);
+        background-color: #f6faf6b7;
+        border-radius: 10px;
+        box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.658);
+    }
+    .footerstyle::first-letter{
+        color: #03810e;
+    }
+    .fstyle{
+        font-family: Poppins;
+    }
+    .fstyle::first-letter{
+        color: #359445;
+    }
+    .mainbutton {
+        position: relative;
+        display: block;
+        color: whitesmoke;
+        overflow: hidden;
+    }
+
+    .mainbutton{
+        position: absolute;
+        width: 140px;
+    background-color: #1B5E20;
+    text-align: center;
+    margin-top: -18px;
+    margin-left: 10px;
+    padding: 16px 14px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-family: Poppins;
+    box-shadow: 2px 2px 2px rgba(104, 103, 103, 0.829);
+}
+.mainbutton:hover{
+    background-color: #17c723c0;
+    color: black;
+}
+    button a{
+        text-decoration: none;
+        color: white;
+    }
+    .green::first-letter{
+        color: #4bb85d;
+    }
+    .green{
+        font-family: Poppins;
+        font-size: 20px;
+        text-align: center;
+        }
+    .about1{
+        width: 290px;
+        text-align: center;
+        margin-left: 120px;
+    }
+    .img1{
+        padding: 10px;
+        border: 1px outset rgb(199, 193, 193);
+        border-radius: 20px;
+        font-family: Poppins;
+        font-size: 15px;
+    }
+    .under{
+        padding: 10px;
+        color: black;
+    }
+    .about2{
+        width: 290px;
+        text-align: center;
+        margin-left: 500px;
+        margin-top: -360px;
+    }
+    .img2{
+        padding: 10px;
+        border: 1px outset rgb(211, 208, 208);
+        border-radius: 20px;
+        font-family: monospace;
+        font-size: 20px;
+    }
+    .Under1{
+        padding: 10px;
+        color: black;
+        font-family: Poppins;
+        font-size: 15px;
+    }
+    .about3{
+        width: 290px;
+        text-align: center;
+        margin-left: 890px;
+        margin-top: -360px;
+    }
+    .img3{
+        padding: 10px;
+        border: 1px outset rgb(211, 208, 208);
+        border-radius: 20px;
+    }
+    .Under2{
+        padding: 10px;
+        color: black;
+        font-family: monospace;
+        font-size: 20px;
+        font-family: Poppins;
+        font-size: 15px;
+    }
+    h2{
+        text-align: center;
+    }
+    h2::first-letter{
+        color: #359445;
+    }
+    .hero{
+        width: 200px;
+        text-align: center;
+        margin-left: 200px;
+    }
+    .content{
+        padding: 20px;
+        color: rgb(12, 12, 12);
+        background-color: #02b045;
+        border: 1px inset rgb(12, 11, 11);
+        border-radius: 15px;
+         font-family: Poppins;
+         font-weight: bold;
+         font-size: 25px;
+         text-shadow: 0px 0px 10px rgb(243, 242, 242);
+    }
+    .hero1{
+        width: 200px;
+        text-align: center;
+        margin-top: -140px;
+        margin-left: 560px;
+    }
+    .content1{
+        padding: 20px;
+        color: rgb(12, 12, 12);
+        background-color: #02b045;
+        border: 1px inset rgb(12, 11, 11);
+        border-radius: 15px;
+         font-family: Poppins;
+         font-weight: bold;
+         font-size: 25px;
+         text-shadow: 0px 0px 15px rgb(252, 250, 250);
+    }
+    .hero2{
+        width: 200px;
+        text-align: center;
+        margin-top: -145px;
+        margin-left: 890px;
+    }
+    .content2{
+        padding: 20px;
+        color: rgb(12, 12, 12);
+        background-color: #09c752d8;
+        border: 1px inset rgb(12, 11, 11);
+        border-radius: 15px;
+         font-family: Poppins;
+         font-weight: bold;
+         font-size: 25px;
+         text-shadow: 0px 0px 15px rgb(241, 239, 239);    
+    }
+    input[type=text]{
+        width: 250px;
+        box-sizing: border-box;
+        border: 1px soild black;
+        border-radius: 10px;
+        margin-left: -400px;
+        margin-top: 9px;
+        background-color: white;
+        background-image: url("./magnifying-glass-solid.png");
+        background-size: 30px;
+        background-position: 5px 2px;
+        background-repeat: no-repeat;
+        padding: 10px 35px;
+        font-size: 15px;
+    }
+    .final{
+         float: left;
+        margin-left: -190px;
+        margin-top:-45px;
+        width: 1490px;
+        height: 400px;
+        border-radius: 10px;
+    }
+    .final img{
+        position: relative;
+        float: right;
+        width: 500px;
+        height: 600px;
+        margin-top: 50px;
+     
+    }
+    .heading1{
+        position: absolute;
+        font-size: 25px;
+        font-family: Poppins;
+        margin-top: 210px;
+        color: #057005;
+        text-shadow: 2px 5px 10px rgba(113, 255, 100, 0.658);
+        margin-left: 290px;
+        
+    }
+    .finalcont{
+        position: absolute;
+        width: 500px;
+        height: 250px;
+        margin-top: 290px;
+        margin-left: 250px;
+        text-align: center;
+        box-sizing: border-box;
+        font-family: Poppins;
+        font-size: 16px;
+        border: 1px outset rgba(0, 0, 0, 0.158);
+        background-color: #f6faf6b7;
+        border-radius: 10px;
+        box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.658);
+        }
+        .finalbt{
+            position: relative;
+            width: 200px;
+            height: 60px;
+            margin-top: 580px;
+            margin-left: 300px;
+            background-color: #025808;
+            border: 1px outset black;
+            border-radius: 15px;
+            font-family: Poppins;
+            font-weight: bold;
+            font-size: 18px;
+            z-index: 1;
+
+        }
+        .finalbt a{
+            text-decoration: none;
+            color: white;
+        }
+        /* .finalbt:hover{
+            background-color: #17e73ad5;
+            color: black;
+        } */
+        .nextbt{
+            position: absolute;
+            width: 200px;
+            height: 60px;
+            margin-top: -60px;
+            margin-left: 460px;
+            background-color: #11cf1a;
+            border: 1px outset black;
+            border-radius: 15px;
+            font-family: Poppins;
+            font-weight: bold;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        .nextbt a{
+            text-decoration: none;
+            color: black;
+        }
+        .nextbt:hover{
+            background-color: #17e73aad;
+            color: black;
+        }
+        .centrecont{
+            margin-top: 1300px;
+            font-family: Poppins;
+            font-weight: bold;
+            color: #025808;
+            text-transform: uppercase;
+            margin-left: 20px;
+            font-size: 20px;
+        }
+        .card10{
+        width: 200px;
+        height: 260px;
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 2px;
+    }
+    .redleaf{
+        padding: 10px;
+        height: 240px;
+        border: 1px outset rgb(167, 165, 165);
+        border-radius: 10px;
+    }
+    .footer10{
+        padding: 10px;
+        color: black;
+    }
+    .card10:hover{
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .card11{
+        width: 200px;
+        height: 260px;
+        text-align: center;
+        margin-top: -260px;
+        margin-left: 300px;
+    }
+    .bonsai{
+        padding: 10px;
+        height: 240px;
+        border: 1px outset rgb(167, 165, 165);
+        border-radius: 10px;
+    }
+    .footer11{
+        padding: 10px;
+        color: black;
+    }
+    .card11:hover{
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .card12{
+        width: 200px;
+        height: 260px;
+        text-align: center;
+        margin-top: -260px;
+        margin-left: 580px;
+    }
+    .orange{
+        padding: 10px;
+        height: 240px;
+        border: 1px outset rgb(167, 165, 165);
+        border-radius: 10px;
+    }
+    .footer12{
+        padding: 10px;
+        color: black;
+    }
+    .card12:hover{
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .card13{
+        width: 200px;
+        height: 260px;
+        text-align: center;
+        margin-top: -260px;
+        margin-left: 850px;
+    }
+    .Gardenjar{
+        padding: 10px;
+        height: 240px;
+        border: 1px outset rgb(167, 165, 165);
+        border-radius: 10px;
+    }
+    .footer13{
+        padding: 10px;
+        color: black;
+    }
+    .card13:hover{
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .card14{
+        width: 200px;
+        height: 260px;
+        text-align: center;
+        margin-top: -260px;
+        margin-left: 1110px;
+    }
+    .Red{
+        padding: 10px;
+        height: 240px;
+        border: 1px outset rgb(167, 165, 165);
+        border-radius: 10px;
+    }
+    .footer14{
+        padding: 10px;
+        color: black;
+    }
+    .card14:hover{
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .Buynow10{
+        text-align: center;
+        padding: 3px 3px;
+        background-color: #05941d;
+        color: white;
+        border-radius: 10px;
+    }
+    .Buynow10:hover{
+        background-color: #b9dfbf;
+        color: black;
+    }
+    .Buynow11{
+        text-align: center;
+        padding: 3px 3px;
+        background-color: #05941d;
+        color: white;
+        border-radius: 10px;
+    }
+    .Buynow11:hover{
+        background-color: #b9dfbf;
+        color: black;
+    }
+    .Buynow12{
+        text-align: center;
+        padding: 3px 3px;
+        background-color: #05941d;
+        color: white;
+        border-radius: 10px;
+    }
+    .Buynow12:hover{
+        background-color: #b9dfbf;
+        color: black;
+    }
+    .Buynow13{
+        text-align: center;
+        padding: 3px 3px;
+        background-color: #05941d;
+        color: white;
+        border-radius: 10px;
+    }
+    .Buynow13:hover{
+        background-color: #b9dfbf;
+        color: black;
+    }
+    .Buynow14{
+        text-align: center;
+        padding: 3px 3px;
+        background-color: #05941d;
+        color: white;
+        border-radius: 10px;
+    }
+    .Buynow14:hover{
+        background-color: #b9dfbf;
+        color: black;
+    }        
+</style>
+<body>
+    <ul>
+        <li class="nohover"><img src="./pngtree-green-leaf-sticker-in-cute-anime-style-vector-png-image_11089996.png" alt="" width="50px" height="40px"></li>
+        <li><a href="./Home.html">Home</a></li>
+        <li><a href="./Our Plants.html" target="_blank">Our Plants</a></li>
+        <li><a href="./Contact Us.html" target="_blank">Contact Us</a></li>
+        <li class="loginlogo"><a href="./login.html" target="_blank"><img src="./circle-user-regular.png" alt="" width="30px" height="30px"></a></li>
+        <form>
+            <input type="text" placeholder="Search">
+        </form>
+    </ul>
+    <div>
+    <div class="frontimage">
+        <img src="./calathea-orbifolia-by-white-wall.jpg" alt="">
+        <pre class="fstyle">Discover beautiful indoor plants,
+ make your space fresh, green,
+ peaceful.</pre>
+    <button class="mainbutton">
+        <a href="./Our Plants.html" target="_blank">Shop Now</a>
+    </button>
+    </div>
+    <marquee behavior="left" direction="scroll"><img src="./pngtree-green-leaf-sticker-in-cute-anime-style-vector-png-image_11089996.png" alt="" width="30px" height="30px">Every Thing - You Need - Plants for your Home Decor</marquee>
+    
+    <h2> <ins>About us</ins></h2>
+    <pre class="green">    At GreenLeaf, we believe every home deserves a little greenery. 
+We provide easy-to-care-for plants for homes,
+offices, and balconies.</pre>
+    <div class="about1">
+        <div class="img1">
+            <img src="./download.png" alt="" width="250px" height="250px">
+            <p class="under">GOOD SERVICES</p>
+    </div>
+    </div>
+    <div class="about2">
+        <div class="img2">
+            <img src="./images (8).jpg" alt="" width="250px" height="250px">
+            <p class="Under1">PLANTS ANALYSIS</p>
+    </div>
+    </div>
+    <div class="about3">
+        <div class="img3">
+            <img src="./home-plant-potted-plant-isolated-on-white-flat-illustration-vector.jpg" alt="" width="250px" height="250px">
+            <p class="Under2">BETTER PLANTS</p>
+    </div>
+    </div>
+    <br>
+    <h2><ins>Why Choose Us?</ins></h2>
+    <br>
+
+    <div class="hero">
+        <pre class="content"> 100+ 
+    Customer</pre>
+    </div>
+
+    <div class="hero1">
+        <pre class="content1">Safe 
+ Delivery</pre>
+    </div>
+    
+    <div class="hero2">
+        <pre class="content2">Import 
+Plants</pre>
+    </div>
+    <div class="footerimg">
+         <img src="./bgv.png" alt="">
+         <h3 class="mainhead">Why go green</h3>
+        <p class="footerstyle">Go green is a step to conserve our nature and lead eco-friendly life, which will help us as well as nature to sustain the natural resources for future generations. This step helps in reducing the carbon footprint and pollution. A clean and green environment always calms our minds and helps us to reduce stress.Going green is an idea that helps us to reduce our impact on the environment and nature. Pollution is the leading cause for the depletion of environmental factors and other environmental issues. Going green helps us to reduce pollution as well as reducing our carbon footprint.We can help nature sustain itself with few simple steps, and we should try to do our part to help the environment.</p>
+    </div>
+    <div class="final">
+        <img src="./nhtg.png" alt="">
+        <h3 class="heading1">Grow your plants with us today</h3>
+        <p class="finalcont">Bring nature into your home and make every corner feel fresh, green, and beautiful. At Green Leap, we believe that plants bring happiness, peace, and life to every space. Explore our collection of indoor plants, air-purifying greens, and stylish pots that perfectly match your home. Whether you are a beginner or a plant lover, we have something special for you. Our plants are easy to care for and perfect for creating your own green paradise. Start your plant journey with Green Leap today and let nature grow with you, one leaf at a time!</p>
+        <div> 
+            <button class="finalbt">
+                <a href="./Our Plants.html">Buy Now</a>
+            </button>
+        </div>
+        <div>
+            <button class="nextbt">
+                <a href="Contact Us.html">Contact Us</a>
+            </button>
+        </div>
+  </div>
+  <div class="centrecont">
+    <p>Our Plants</p>
+  </div>
+  <div class="card10">
+                <div class="redleaf">
+                    <img src="./Red Diamond Leaf.jpg" alt="" width="140px" height="120px">
+                    <p class="footer10">Red Diamond $499</p>
+                    <button class="Buynow10">
+                        <a href="./Our Plants.html">Buy now</a></button>
+                </div>
+             </div>
+             <div class="card11">
+                <div class="bonsai">
+                    <img src="./Bonsai Plant.jpg" alt="" width="140px" height="120px">
+                    <p class="footer11"> Bonsai $2999</p>
+                    <button class="Buynow11"> 
+                        <a href="./Our Plants.html">Buy now</a></button>
+                </div>
+             </div>
+             <div class="card12">
+                <div class="orange">
+                    <img src="./Orange plant.jpg" alt="" width="140px" height="120px">
+                    <p class="footer12"> Orange Plant $79</p>
+                    <button class="Buynow12"> 
+                        <a href="./Our Plants.html">Buy now</a></button>
+                </div>
+            </div>
+             <div class="card13">
+                <div class="Gardenjar">
+                    <img src="./Garden Jar.jpg" alt="" width="140px" height="120px">
+                    <p class="footer13"> Garden Jar $1999</p>
+                    <button class="Buynow13">
+                        <a href="./Our Plants.html">Buy now</a></button>
+                </div>
+            </div>
+             <div class="card14">
+                <div class="Red">
+                    <img src="./Anthurium Red.jpg" alt="" width="140px" height="120px">
+                    <p class="footer14"> Anthurium Red $199</p>
+                    <button class="Buynow14">
+                        <a href="Our Plants.html">Buy now</a></button>
+                </div>
+             </div>
+
+  </div>
+  </div>
+    <!-- <div class="Money">
+        <img src="./download.jpg" alt=" Money Plant" width="100px" height="90px">
+
+        <div class="snake">
+        <img src="./download (1).jpg" alt="Snake plant" width="200px"  height="100px">
+    </div> -->
+    <br>
+    <br>
+    <ol>
+         <li><a href="./Home.html">Home</a></li>
+        <li><a href="./Our Plants.html" target="_blank">Our Plants</a></li>
+        <li><a href="./Contact Us.html" target="_blank">Contact Us</a></li>
+        <hr>
+        <h6>@THANK YOU FOR CHOOSING US</h6>
+    </ol>
+    </div>
+</div>
+</body>
+</html>

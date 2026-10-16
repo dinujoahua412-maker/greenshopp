@@ -1,0 +1,31 @@
+h1{
+    color: #1B5E20;
+    border-style: groove;
+    border-radius: 10px;
+    text-shadow: 5px 5px 10px #1B5E20;
+    text-align: center;
+    margin: 10px 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.fstyle{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    
+}
+.about1:hover{
+    border: 1px solid black;
+    border-radius: 15px;
+    
+}
+.about2:hover{
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.about3:hover{
+    border: 1px solid black;
+    border-radius: 15px;
+}
+

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./colorlayout.css">
+    <link rel="icon" href="./circle-user-solid.png">
+    <title>Login Page</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    body{
+        background: url("./Sunlit\ Sage\ Wall\ Garden.png") no-repeat scroll;
+        background-size: cover;
+        background-position: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .container{
+        width: 700px;
+        max-width: 100%;
+        display: flex;
+        margin-left: 200px;
+        overflow: hidden;
+       
+    }
+    .right{
+        padding: 50px;
+        margin-top: 90px;
+        margin-left: 320px;
+        background-color: rgba(245, 245, 245, 0.349);
+        color: #2b7019;
+        border-radius: 10px;
+        box-shadow: 10px 5px 5px rgba(12, 12, 12, 0.527);
+
+    }
+    .right h2{
+        color: #174D32;
+        text-shadow: 10px 5px 5px rgb(129, 126, 126);
+        margin-bottom: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        font-size: 27px;
+        
+    }
+    form{
+        margin-top: 20px;
+        border-radius: 5px;
+        padding: 10px 5px;
+    }
+    form label{
+        display: block;
+        color: #686;
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+    form > input{
+        width: 250px;
+        padding: 10px;
+        border: 1px outset black;
+        border-radius: 5px;
+        margin-bottom: 8px;
+    }
+    li a{
+         text-decoration: none;
+
+    }
+    li  :hover {
+        background-color: #b9f0c1;
+        color: rgb(17, 17, 17);
+    }
+    .input{
+        width: 90px;
+        padding: 10px 10px;
+    }
+    .Login{
+        width: 230px;
+        height: 35px;
+        background-color: rgba(11, 117, 7, 0.952);
+        border-radius: 8px;
+        overflow: hidden;
+        
+    }
+    .Login a{
+        text-decoration: none;
+        color: white;
+    }
+    .Login:hover{
+        background-color: rgba(86, 170, 83, 0.952);
+        color: black;
+    }
+    .signup a{
+        display: block;
+        margin-top: 20px;
+        color:#174D32 ;
+    }
+
+</style>
+<body>
+    <div class="container">
+        <div class="right">
+            <h2> <img src="./pngtree-green-leaf-sticker-in-cute-anime-style-vector-png-image_11089996.png" alt="" width="40px" height="40px">SIGN UP</h2>
+        
+    <form>
+        <label> Name :</label>
+        <input type="text" placeholder="Your Name...">
+        <label> Email Id:</label>
+        <input type="email" placeholder="Enter your Email">
+        <br>
+        <br>
+        <label> Password</label>
+        <input type="password" placeholder="Enter your passcode">
+        <br>
+        <br>
+        <button class="Login">
+            <a href="login.html">Sign In</a>
+        </button>
+        <br>
+        <div class="signup">
+            <P><a href="./login.html">Already Have Account...</a></P>
+        </div>
+        
+        </div>
+        </div>
+        
+        </form>
+    
+</body>
+</html>
